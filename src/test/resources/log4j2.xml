@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Properties>
+        <Property name = "logFile">./testlogs</Property>
+        <Property name="log.level">debug</Property>
+        <Property name="log.pattern">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Property>
+    </Properties>
+
+    <Appenders>
+        <!--        Console Definiton-->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern ="${log.pattern}"/>
+        </Console>
+
+        <!--        File Generation Definiton-->
+        <RollingFile name="Rolling File" fileName="${logFile}/TestAutomationlogs" filePattern="${logFile}/TestAutomationlogs.%d{yyyy-MM-dd}.%i">
+            <PatternLayout pattern="${log.pattern}"/>
+
+            <Policies>
+                <SizeBasedTriggeringPolicy size="500"/>
+            </Policies>
+
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level ="${log.level}">
+            <AppenderRef ref = "Rolling File"/>
+            <!--            <AppenderRef ref = "Console"/>-->
+        </Root>
+    </Loggers>
+
+</Configuration>
