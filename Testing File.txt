@@ -1,0 +1,149 @@
+Checking for the pull requests
+git init
+git config --global user.name "Bhuvan 99"
+git add -A or git add *.java or git add <filename>
+git commit -m "Commit Message"
+git remote add origin "https://github.com/Bhuvan99/OpenCart.git
+git push origin master
+---------------------------------------------------------------------
+1. Product Definition in Arrangement Architecture
+ 
+Arrangement Architecture (AA) in Temenos Transact provides a flexible framework for creating financial products, particularly loans.
+ 
+The process follows these key steps:
+ 
+Step 1: Creating Property Class
+ 
+Property Class defines key attributes and rules which is defined by Temenos which is building block of the product.
+ 
+Table Used:
+AA.PROPERTY.CLASS → Stores property class definitions.
+Key Fields:
+PROPERTY.CLASS
+DESCRIPTION
+DATA.TYPE
+ 
+Step 2: Defining Property Conditions
+Property Conditions set conditional behaviours like interest rates, Charges, repayment structures or fee calculations.
+ 
+Tables Used:
+AA.PROPERTY.CONDITION → Stores condition rules for product behaviour.
+AA.PROPERTY.CONDITION.DETAIL → Holds condition-related parameters.
+Key Fields:
+CONDITION.ID
+PROPERTY.CLASS
+VALUE.TYPE
+ 
+Step 3: Setting Up Product Proofs
+Product Proofs define eligibility and validation checks.
+Tables Used:
+AA.PROOF → Stores validation proof details.
+AA.PROOF.PARAMETER → Holds proof parameters for specific conditions.
+ 
+Key Fields:
+PROOF.ID
+PROPERTY.CLASS
+CHECK.PARAMETERS
+ 
+Step 4: Creating the Product in AA Public
+Once Property Class, Conditions and Proofs are defined, the product is created in the AA.PUBLICLAYER.
+Tables Used:
+AA.PRODUCT → Stores product-level details.
+AA.PRODUCT.VERSION → Stores version details of the product.
+Key Fields:
+PRODUCT.ID
+PROPERTY.CLASS
+VERSION.NUMBER
+ 
+Step 5: Customer Account Creation & Processing
+After the product is created, customer accounts are opened under this product.
+Tables Used:
+AA.ARRANGEMENT → Stores customer arrangement details.
+AA.ACCOUNT → Stores loan account details.
+AA.EVENTS → Captures transactional events on the loan.
+Key Fields:
+ARRANGEMENT.ID
+ACCOUNT.ID
+EVENT.ID
+Conclusion
+----------------------------------------------------------------------------------------------------
+https://youtube.com/playlist?list=PLffLKBjSzxT-36xMOSz6HHq7Ca1veGW7S&si=ton9tU9Art0oTzEu
+
+https://youtube.com/playlist?list=PLG_pOUNcDW47N8PwD380xECTQtG3hTzJu&si=b4iRFjNIRx2SW0QY
+
+https://youtube.com/playlist?list=PLQpF--VlgguT6wkorJvNX266xg2F6u7Mp&si=TWPa9ktB47N2SEE4
+https://youtu.be/aeZx4N4SZ7s?si=1nwFHVxR0fCnwdNh    
+
+
+https://youtu.be/_ZpUMyohjcY?si=0CIXqnXHwFC79SnF 
+https://youtu.be/cr3QuAIjM70?si=ilCI7_o4ezdMaD3d
+
+
+Consider taking courses or certifications related to semiconductor testing, electronic design automation (EDA), or specific testing methodologies used in the semiconductor industry.
+	1. Kiran’s Previous Year question Bank.
+	2. NCERT of History, Polity, Geography 6th to 10th
+	3. NCERT of Economics 9th to 12th.
+	4. Lucent General Science
+	5. Current Affairs from sites like Adda 24×7, StudyIq, Testbook.
+	6. I did take help of youtube sites as well like Vedic Academy , Parmar SSC, Crazy GK Tricks.Following sources will definitely help you score and shine in your preparation.Study well and All the very best for your upcoming exams.
+Lucent GK and science is like a boon for SSC-CGL aspirants. Every chapter in this book has been precisely described. The author has wisely written all the information in a very simple manner which can be easily understood by a layman also. Now the question is how to read this book effectively if you are preparing for SSC CGL exam or any SSC level exam.
+First of all, check out the syllabus of the exam because Lucent is not prepared only for the SSC aspirants but PCS aspirants also follow this. So you must be aware of your syllabus. Then divide your topics into days. Suppose you have to cover 10 chapters in science and 10 chapters in GK for the SSC exam and only 2 months are left for the prelims exam.
+2 months means 60 days. Then try to cover 1 chapter of gk or science in 2 days. And read gk and science every 2nd day, means 1 chapter science then 1 chapter GK, then science then GK. In this manner you will be confident in both subjects and will not get bored. So you will prepare the 20 chapters in 40 days and still you will have 20 days in hand for revision. Then revise 1 chapter everyday till the exam.
+Now the question is which chapter should you cover first. In GK, first cover the constitutional part and remember 1 article in one day. Then cover freedom fight after this geography then ancient history.
+In science, first cover vitamins and desease. Then physics, human body and then chemistry.
+
+
+Arjun Singh
+Inspector at Income Tax in India(2015–present)Author has 128answers and 2Manswer views4y
+	1. Study Polity part of Lucent
+	2. Study Physics Chemistry Biology part of Lucent
+	3. Study History part of Lucent
+	4. All One liners in last part of lucent
+	5. Geography part of lucent
+Listen all this by heart
+Now Study Arihant GK Book and make notes what you have gained fresh knowledge from this book.
+Now Solve al previous year papers of CGL for GK and study that topic whatever question you miss and keep this cycle continue.
+
+
+How should you go about reading Lucent??
+	1. Cover all the static things first.
+		1. For History:
+			1. Leave the causes. [The rise or downfall of empires etc.] 30 - 40% of content in History portion can be skimmed from this book.
+			2. Learn the first last and famous rulers their achievements, wars, books, capital etc.
+			3. Learn all the battles - their date, fought between and the place.
+			4. Learn all the important events, meetings, books written etc.
+		2. For Geography:
+			1. Highest points, Lowest points, Lakes, Passes, Ranges etc.
+			2. Use google maps to learn straits and bordering states.
+		3. For Polity:
+			1. It is already comprehensive and to the point.
+			2. Give it a good read and you’ll feel confident in it.
+		4. For Science:
+			1. Did Biology completely from it.
+			2. For Chemistry and Physics I skimmed a lot of things. Did only what I thought was relevant.
+		5. For Economics:
+			1. Cover all five year plans.
+			2. Focus mostly on Micro economics.
+	2. Leave the miscellaneous portion for now.
+		1. But when you revise it for 3 or 4th time. Make sure you start cramming things Like awards - date when it started, first male and female recipient and latest recipients.
+		2. It is quite comprehensive I’ll mention all the topics some other time.
+	3. Current affairs:
+		1. I started doing them 1.5 months before the Pre exam.
+		2. I watched a lot of YouTube videos for that.
+		3. I did not make any notes - I repeated same video multiple times until I was confident in them.
+		4. Make sure you know basics things about the countries in news.
+		5. Birender Rawat's answer to How does one prepare for current affairs for the SSC CGL?
+Now it sure does seems daunting, but trust me you develop liking for it. Just start small and you’ll be golden.
+
+News Channel 
+the channels to watch out for are actually lok sabha tv, rajya sabha tv and selective parts of dd bharti (you can see those culture part of dd bharti from YouTube also).
+These channels helped me in long run. But if your exam is near, don't waste too much time in these channels. Just take some program (like big picture, insights, sarokar, science reporter (for pre) and other if you like) and watch them on YouTube.
+Also, if you get time, see the documentaries named bharat ek khoj, Pradhan mantri, sanvidhan. These will help you.
+
+	• Big Picture --> This show runs from Monday to Friday.
+	• 9 Pm English news bulletin --> This also a important daily tv show. You should not miss this.
+	• World panarama --> Time : only on Saturday at 9:30 pm .
+	• Gyan vigyaan --> These are best available and important tv shows for civil services .
+	1. For Art & Culture one can watch small 10 minute videos on Dances, dramas and music.
+	2. For ethics there is a set of 12 lectures by Michael Sandel and they are simply brilliant !
+	3. Constitution of India is a 10 episode series directed by Shyam Benegal and it is very well directed.
